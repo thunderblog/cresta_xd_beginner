@@ -10,15 +10,30 @@
   margin-top: 70px;
 }
 
-.service__div .service-image__div .service-text, .service__div .service-image__div--camera .service-text, .service__div .service-image__div--mobile-phone .service-text {
-  margin-left: 70px;
+.service__div .service-image__div .service-text__div, .service__div .service-image__div--camera .service-text__div, .service__div .service-image__div--mobile-phone .service-text__div, .service__div .service-image__div .service-text__div--right, .service__div .service-image__div--camera .service-text__div--right, .service__div .service-image__div--mobile-phone .service-text__div--right, .service__div .service-image__div .service-text__div--left, .service__div .service-image__div--camera .service-text__div--left, .service__div .service-image__div--mobile-phone .service-text__div--left {
+  padding-top: 20px;
 }
 
-.service__div .service-image__div .service-text .service-description, .service__div .service-image__div--camera .service-text .service-description, .service__div .service-image__div--mobile-phone .service-text .service-description {
+.service__div .service-image__div .service-text__div .service-description, .service__div .service-image__div--camera .service-text__div .service-description, .service__div .service-image__div--mobile-phone .service-text__div .service-description, .service__div .service-image__div .service-text__div--right .service-description, .service__div .service-image__div--camera .service-text__div--right .service-description, .service__div .service-image__div--mobile-phone .service-text__div--right .service-description, .service__div .service-image__div .service-text__div--left .service-description, .service__div .service-image__div--camera .service-text__div--left .service-description, .service__div .service-image__div--mobile-phone .service-text__div--left .service-description {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 2em;
   letter-spacing: 0.05em;
+}
+
+.service__div .service-image__div .service-text__div--right, .service__div .service-image__div--camera .service-text__div--right, .service__div .service-image__div--mobile-phone .service-text__div--right {
+  margin-left: 20px;
+}
+
+.service__div .service-image__div .service-text__div--left, .service__div .service-image__div--camera .service-text__div--left, .service__div .service-image__div--mobile-phone .service-text__div--left {
+  margin-right: 20px;
+}
+
+.service__div .service-image__div--mobile-phone {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 /*# sourceMappingURL=service.css.map */

@@ -8,9 +8,9 @@
 		display: flex;
 		margin-top: 70px;
 
-		.service-text
+		%service-text__div
 		{
-			margin-left: 70px;
+			padding-top: 20px;
 
 			.service-description
 			{
@@ -21,6 +21,23 @@
 				letter-spacing: 0.05em;
 			}
 		}
+
+		.service-text__div
+		{
+			@extend %service-text__div;
+
+			&--right{
+				@extend %service-text__div;
+				margin-left: 20px;
+			}
+
+			&--left{
+				@extend %service-text__div;
+				margin-right: 20px;
+			}
+		}
+
+
 	}
 
 	.service-image__div{
@@ -33,6 +50,7 @@
 
 		&--mobile-phone{
 			@extend %service-image__div;
+			flex-direction: row-reverse;
 
 		}
 	}
