@@ -1,0 +1,41 @@
+.service__div
+{
+	width: 1030px;
+	margin: 0 auto;
+
+	%service-image__div
+	{
+		display: flex;
+		margin-top: 70px;
+
+		.service-text
+		{
+			margin-left: 70px;
+
+			.service-description
+			{
+				font-family: 'Noto Sans JP', sans-serif;
+				font-size: 14px;
+				font-weight: bold;
+				line-height: 2em;
+				letter-spacing: 0.05em;
+			}
+		}
+	}
+
+	.service-image__div{
+		@extend %service-image__div;
+
+		&--camera{
+			@extend %service-image__div;
+
+		}
+
+		&--mobile-phone{
+			@extend %service-image__div;
+
+		}
+	}
+
+}
+// end of  service
