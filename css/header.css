@@ -1,4 +1,4 @@
-.header__header {
+.header {
   width: 100%;
   height: 74px;
   background-color: #1B1310;
@@ -13,12 +13,12 @@
   padding-bottom: 20px;
 }
 
-.header__header h1 {
+.header__main-title {
   margin-left: 120px;
   margin-top: 19px;
 }
 
-.header__header h1 .main-title__a {
+.header__main-title--anker {
   width: 10em;
   color: #ffffff;
   text-decoration: none;
@@ -27,11 +27,16 @@
   letter-spacing: 0em;
 }
 
-.header__header .header-menu__nav {
+.header__main-title--anker:hover {
+  text-decoration: none;
   color: white;
 }
 
-.header__header .header-menu__nav ul {
+.header__menu {
+  color: white;
+}
+
+.header__menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,12 +44,12 @@
   margin-top: 24px;
 }
 
-.header__header .header-menu__nav ul li {
+.header__menu ul li {
   list-style: none;
   margin-left: 58px;
 }
 
-.header__header .header-menu__nav ul li a {
+.header__menu ul li a {
   color: white;
   text-decoration: none;
   font-size: 16px;

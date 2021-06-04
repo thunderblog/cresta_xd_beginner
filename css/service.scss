@@ -1,9 +1,9 @@
-.service__div
+.service
 {
 	width: 1030px;
 	margin: 0 auto;
 
-	%service-image__div
+	%__image-text
 	{
 		display: flex;
 		margin-top: 70px;
@@ -11,47 +11,32 @@
 		%service-text__div
 		{
 			padding-top: 20px;
-
-			.service-description
-			{
-				font-family: 'Noto Sans JP', sans-serif;
-				font-size: 14px;
-				font-weight: bold;
-				line-height: 2em;
-				letter-spacing: 0.05em;
-			}
 		}
 
-		.service-text__div
-		{
-			@extend %service-text__div;
+		div h3{
+			margin-top: 20px;
+		}
+	}
 
-			&--right{
-				@extend %service-text__div;
+	&__image-text{
+		@extend %__image-text;
+
+		&--left{
+			@extend %__image-text;
+
+			div{
 				margin-left: 20px;
 			}
 
-			&--left{
-				@extend %service-text__div;
-				margin-right: 20px;
-			}
 		}
 
-
-	}
-
-	.service-image__div{
-		@extend %service-image__div;
-
-		&--camera{
-			@extend %service-image__div;
-
-		}
-
-		&--mobile-phone{
-			@extend %service-image__div;
+		&--right{
+			@extend %__image-text;
 			flex-direction: row-reverse;
 
+			div{
+				margin-right: 20px;
+			}
 		}
 	}
 

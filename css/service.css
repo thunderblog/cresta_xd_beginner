@@ -1,39 +1,31 @@
-.service__div {
+.service {
   width: 1030px;
   margin: 0 auto;
 }
 
-.service__div .service-image__div, .service__div .service-image__div--camera, .service__div .service-image__div--mobile-phone {
+.service .service__image-text, .service .service__image-text--left, .service .service__image-text--right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 70px;
 }
 
-.service__div .service-image__div .service-text__div, .service__div .service-image__div--camera .service-text__div, .service__div .service-image__div--mobile-phone .service-text__div, .service__div .service-image__div .service-text__div--right, .service__div .service-image__div--camera .service-text__div--right, .service__div .service-image__div--mobile-phone .service-text__div--right, .service__div .service-image__div .service-text__div--left, .service__div .service-image__div--camera .service-text__div--left, .service__div .service-image__div--mobile-phone .service-text__div--left {
-  padding-top: 20px;
+.service .service__image-text div h3, .service .service__image-text--left div h3, .service .service__image-text--right div h3 {
+  margin-top: 20px;
 }
 
-.service__div .service-image__div .service-text__div .service-description, .service__div .service-image__div--camera .service-text__div .service-description, .service__div .service-image__div--mobile-phone .service-text__div .service-description, .service__div .service-image__div .service-text__div--right .service-description, .service__div .service-image__div--camera .service-text__div--right .service-description, .service__div .service-image__div--mobile-phone .service-text__div--right .service-description, .service__div .service-image__div .service-text__div--left .service-description, .service__div .service-image__div--camera .service-text__div--left .service-description, .service__div .service-image__div--mobile-phone .service-text__div--left .service-description {
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 2em;
-  letter-spacing: 0.05em;
-}
-
-.service__div .service-image__div .service-text__div--right, .service__div .service-image__div--camera .service-text__div--right, .service__div .service-image__div--mobile-phone .service-text__div--right {
+.service__image-text--left div {
   margin-left: 20px;
 }
 
-.service__div .service-image__div .service-text__div--left, .service__div .service-image__div--camera .service-text__div--left, .service__div .service-image__div--mobile-phone .service-text__div--left {
-  margin-right: 20px;
-}
-
-.service__div .service-image__div--mobile-phone {
+.service__image-text--right {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.service__image-text--right div {
+  margin-right: 20px;
 }
 /*# sourceMappingURL=service.css.map */

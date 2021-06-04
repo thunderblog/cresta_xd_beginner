@@ -1,4 +1,4 @@
-.main-visual__div {
+.main-visual {
   height: 740px;
   background-image: url(../img/main-visual.png);
   background-size: cover;
@@ -18,7 +18,7 @@
           flex-direction: column;
 }
 
-.main-visual__div .main-copy__p {
+.main-visual__title {
   font-size: 50px;
   color: white;
   border: 2px solid white;
