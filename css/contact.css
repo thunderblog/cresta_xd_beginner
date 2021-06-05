@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .contact {
   padding-top: 152px;
   max-width: 700px;
@@ -31,5 +32,26 @@
 
 .contact .contact-form .contact-form-object__textarea {
   border: 1px solid #141414;
+}
+
+.contact .contact-form .contact-form-button {
+  width: 700px;
+  text-align: center;
+}
+
+.contact .contact-form .contact-form-button input {
+  display: inline-block;
+  width: 235px;
+  height: 60px;
+  margin-top: 40px;
+  background-color: #1B1310;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  border-radius: 2em;
+  font-weight: bold;
+  -webkit-box-shadow: 2px 2px 2px #141414;
+          box-shadow: 2px 2px 2px #141414;
+  font-family: "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;
 }
 /*# sourceMappingURL=contact.css.map */

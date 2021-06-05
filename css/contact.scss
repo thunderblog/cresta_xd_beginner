@@ -1,12 +1,15 @@
-.contact{
+.contact
+{
 	padding-top: 152px;
 	max-width: 700px;
 	margin:0 auto;
 
-	.contact-form{
+	.contact-form
+	{
 		margin-top: 69px;
 
-		.contact-form-object{
+		.contact-form-object
+		{
 			display: flex;
 			flex-direction: column;
 			margin-bottom: 22px;
@@ -25,5 +28,29 @@
 				border: 1px solid #141414;
 			}
 		}
+
+		.contact-form-button
+		{
+			width: 700px;
+			text-align: center;
+		
+			input
+			{
+				display: inline-block;
+				width: 235px;
+				height: 60px;
+				margin-top: 40px;
+				background-color: #1B1310;
+				color: white;
+				font-size: 20px;
+				letter-spacing: 0.05em;
+				border-radius: 2em;
+				font-weight: bold;
+				box-shadow: 2px 2px 2px #141414;
+
+				font-family: "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;
+			}
+		}
 	}
 }
+
