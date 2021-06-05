@@ -97,13 +97,30 @@
 	</div>
 	<!-- end of news -->
 
-	<div class="contact section-wrapper">
-		<h3 class="section-sub-title__h3 text-align-center">
+	<div class="contact">
+		<h2 class="section-main-title__h2">
 			お問い合わせ
-		</h3>
+		</h2>
+		<form action="" class="contact-form">
+			<div class="contact-form-object">
+				<label for="input-name" class="contact-form-object__label">担当者名</label>
+				<input type="text" id="input-name" class="contact-form-object__input">
+			</div>
+			<div class="contact-form-object">
+				<label for="input-phone" class="contact-form-object__label">電話番号</label>
+				<input type="text" id="input-phone" class="contact-form-object__input">
+			</div>
+			<div class="contact-form-object">
+				<label for="input-mail" class="contact-form-object__label">メールアドレス</label>
+				<input type="text" id="input-mail" class="contact-form-object__input">
+			</div>
+			<div class="contact-form-object">
+				<label for="input-abount" class="contact-form-object__label">お問い合わせ内容</label>
+				<textarea name="" id="input-about" cols="30" rows="10" class="contact-form-object__textarea"></textarea>
+				<!-- <input type="text" id="input-about" class="contact-form-object__input--multi-row" rows="10"> -->
+			</div>
+		</form>
 
 	</div>
-
 </body>
-
 </html>

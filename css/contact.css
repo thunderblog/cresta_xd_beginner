@@ -1,10 +1,35 @@
-.text-align-center {
-  text-align: center;
+.contact {
+  padding-top: 152px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-.contact {
-  margin-top: 150px;
-  width: 700px;
-  margin: 0 auto;
+.contact .contact-form {
+  margin-top: 69px;
+}
+
+.contact .contact-form .contact-form-object {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.contact .contact-form .contact-form-object__label {
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  line-height: 1.875 em;
+}
+
+.contact .contact-form .contact-form-object__input {
+  border: 1px solid #141414;
+}
+
+.contact .contact-form .contact-form-object__textarea {
+  border: 1px solid #141414;
 }
 /*# sourceMappingURL=contact.css.map */
