@@ -1,0 +1,11 @@
+.footer{
+	background: #000;
+	text-align: center;
+	height: 79px;
+	margin-top: 50px;
+
+	&-copyright{
+		color: white;
+		line-height: 79px;
+	}
+}
