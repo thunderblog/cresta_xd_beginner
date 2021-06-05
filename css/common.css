@@ -1,3 +1,8 @@
+.section-wrapper {
+  width: 1030px;
+  margin: 0 auto;
+}
+
 .section-main-title__h2 {
   text-align: center;
   font-size: 36px;
