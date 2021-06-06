@@ -11,7 +11,6 @@
 }
 
 .news__three-box div {
-  width: 325px;
   border: 1px solid #707070;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -19,6 +18,12 @@
   margin-right: 34px;
   -webkit-box-shadow: 0px 5px 5px #707070;
           box-shadow: 0px 5px 5px #707070;
+}
+
+.news__three-box div img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .news__three-box div p {
@@ -35,6 +40,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .news__three-box div {
+    margin-bottom: 50px;
   }
 }
 /*# sourceMappingURL=news.css.map */

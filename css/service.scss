@@ -1,8 +1,5 @@
 .service
 {
-	// width: 1030px;
-	// margin: 0 auto;
-
 	&__image{
 		text-align: center;
 	}
@@ -48,6 +45,12 @@
 { 
 	.service
 	{
+		&__image{
+			img{
+				width: 100%;
+			}
+		}
+
 		%__image-text{
 			flex-direction: column-reverse;
 
@@ -71,29 +74,6 @@
 				@extend %__image-text;
 			}
 		}
-
-		// &__image-text--left{
-		// 	flex-direction: column;
-
-		// 	width: 90%;
-		// 	margin: 0 auto;
-
-		// 	div{
-		// 		margin: 0;
-		// 	}
-		// }
-
-		// &__image-text--right{
-		// 	flex-direction: column;
-
-		// 	width: 90%;
-		// 	margin: 0 auto;
-
-		// 	div{
-		// 		margin: 0;
-		// 	}
-		// }
-
 	}
 }
 // end of  service

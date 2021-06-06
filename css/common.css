@@ -30,7 +30,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  width: 768px;
-  padding: 0 5%;
+  .section-wrapper {
+    max-width: 768px;
+    padding: 0 5%;
+  }
 }
 /*# sourceMappingURL=common.css.map */
