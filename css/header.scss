@@ -52,4 +52,19 @@ $main_color:#1B1310;
 		}
 	}
 }
+
+@media screen and (max-width:768px) {
+	.header{
+
+		&__main-title{
+			margin-top: 20px;
+			margin-left: 15px;
+		}
+
+		&__menu{
+			display: none;
+		}
+	}
+	
+}
 // end fo header
