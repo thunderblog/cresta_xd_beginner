@@ -1,3 +1,7 @@
+.service__image {
+  text-align: center;
+}
+
 .service .service__image-text, .service .service__image-text--left, .service .service__image-text--right {
   display: -webkit-box;
   display: -ms-flexbox;

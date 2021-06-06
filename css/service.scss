@@ -3,6 +3,10 @@
 	// width: 1030px;
 	// margin: 0 auto;
 
+	&__image{
+		text-align: center;
+	}
+
 	%__image-text
 	{
 		display: flex;
@@ -44,8 +48,8 @@
 { 
 	.service
 	{
-		&__image-text--left{
-			flex-direction: column;
+		%__image-text{
+			flex-direction: column-reverse;
 
 			width: 90%;
 			margin: 0 auto;
@@ -53,18 +57,42 @@
 			div{
 				margin: 0;
 			}
+
 		}
 
-		&__image-text--right{
-			flex-direction: column;
+		&__iamge-text{
+			@extend %__image-text;
 
-			width: 90%;
-			margin: 0 auto;
+			&--left{
+				@extend %__image-text;
+			}
 
-			div{
-				margin: 0;
+			&--right{
+				@extend %__image-text;
 			}
 		}
+
+		// &__image-text--left{
+		// 	flex-direction: column;
+
+		// 	width: 90%;
+		// 	margin: 0 auto;
+
+		// 	div{
+		// 		margin: 0;
+		// 	}
+		// }
+
+		// &__image-text--right{
+		// 	flex-direction: column;
+
+		// 	width: 90%;
+		// 	margin: 0 auto;
+
+		// 	div{
+		// 		margin: 0;
+		// 	}
+		// }
 
 	}
 }
