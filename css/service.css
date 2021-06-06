@@ -31,9 +31,9 @@
 @media screen and (max-width: 768px) {
   .service__image-text--left {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     width: 90%;
     margin: 0 auto;
   }
@@ -42,14 +42,17 @@
   }
   .service__image-text--right {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     width: 90%;
     margin: 0 auto;
   }
   .service__image-text--right div {
     margin: 0;
+  }
+  .service__image img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=service.css.map */

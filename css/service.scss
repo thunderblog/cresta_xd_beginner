@@ -41,39 +41,37 @@
 		}
 	}
 }
-@media screen and (max-width: 768px)
-{ 
+
+@media screen and (max-width:768px) {
+
 	.service
 	{
-		&__image{
-			img{
-				width: 100%;
-			}
-		}
 
-		%__image-text{
+		&__image-text--left{
 			flex-direction: column-reverse;
-
 			width: 90%;
 			margin: 0 auto;
 
 			div{
 				margin: 0;
 			}
-
 		}
 
-		&__iamge-text{
-			@extend %__image-text;
+		&__image-text--right{
+			flex-direction: column-reverse;
+			width: 90%;
+			margin: 0 auto;
 
-			&--left{
-				@extend %__image-text;
+			div{
+				margin: 0;
 			}
+		}
 
-			&--right{
-				@extend %__image-text;
+		&__image{
+
+			img {
+				width: 100%;
 			}
 		}
 	}
 }
-// end of  service
