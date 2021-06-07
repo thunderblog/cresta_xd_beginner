@@ -2,4 +2,11 @@
 	display: block;
 	width: 25px;
 	height: 16px;
+	position: relative;
+	z-index: 3;
+	border: none;
+
+	%__bar{
+		
+	}
 }

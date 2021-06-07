@@ -32,7 +32,9 @@
 @media screen and (max-width: 768px) {
   .section-wrapper {
     max-width: 768px;
-    padding: 0 5%;
+  }
+  .service-text__p {
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=common.css.map */
