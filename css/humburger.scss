@@ -1,7 +1,8 @@
 .humburger-button{
-	display: block;
-	width: 50px;
-	height: 50px;
+	// display: block;
+	display: none;
+	width: 39px;
+	height: 39px;
 	position: relative;
 	z-index: 3;
 	border: none;
@@ -43,4 +44,53 @@
 .humburger-button.close .bar-bottom{
 	transform: translate(-50%,-8px) rotate(-45deg);
 	transition: transform .3s;
+}
+
+.nav-wrapper{
+	display: none;
+	transform: translateX(100%);
+	transition: 0.3s;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.nav-wrapper.slide-in{
+	transform: translateX(0);
+	transition: 0.3s;
+}
+
+.header-nav{
+	// width: 100%;
+	// height: 100%;
+	background-color: black;
+	z-index: 2;
+}
+
+.header-nav.nav-list{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.header-nav.nav-item{
+	margin-right: 0;
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width:768px) {
+	.humburger-button{
+		display: block;
+	}
+
+	.header-nav{
+		// width: 100%;
+	}
+	
 }

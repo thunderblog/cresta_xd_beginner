@@ -33,13 +33,16 @@
 
 .header__menu {
   color: white;
-  margin: 0 120px 0 auto;
 }
 
 .header__menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 120px;
 }
 
 .header__menu ul li {

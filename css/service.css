@@ -7,14 +7,13 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 70px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .service .service__image-text div h3, .service .service__image-text--left div h3, .service .service__image-text--right div h3 {
   margin-top: 20px;
-}
-
-.service__image-text--left div {
-  margin-left: 70px;
 }
 
 .service__image-text--right {
@@ -22,10 +21,6 @@
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-}
-
-.service__image-text--right div {
-  margin-right: 70px;
 }
 
 @media screen and (max-width: 768px) {

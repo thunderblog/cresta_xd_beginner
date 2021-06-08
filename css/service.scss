@@ -8,6 +8,7 @@
 	{
 		display: flex;
 		margin-top: 70px;
+		justify-content: space-evenly;
 
 		%service-text__div
 		{
@@ -24,20 +25,11 @@
 
 		&--left{
 			@extend %__image-text;
-
-			div{
-				margin-left: 70px;
-			}
-
 		}
 
 		&--right{
 			@extend %__image-text;
 			flex-direction: row-reverse;
-
-			div{
-				margin-right: 70px;
-			}
 		}
 	}
 }
