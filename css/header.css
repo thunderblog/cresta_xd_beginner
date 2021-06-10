@@ -33,6 +33,7 @@
 
 .header__menu {
   color: white;
+  margin: 0 0 0 auto;
 }
 
 .header__menu ul {
@@ -59,11 +60,14 @@
 
 @media screen and (max-width: 768px) {
   .header__main-title {
-    margin-top: 20px;
-    margin-left: 15px;
+    margin-top: 0.5em;
+    margin-left: 0.2em;
   }
   .header__menu {
     display: none;
+  }
+  .header__menu.menu-open {
+    display: block;
   }
 }
 /*# sourceMappingURL=header.css.map */
